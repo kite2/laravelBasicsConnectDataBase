@@ -10,7 +10,8 @@
 </head>
 <body>
 <h1>Danh sách loại sách</h1>
-<a href="{{route("category.add")}}">Thêm Thể Loại</a>
+<a href="{{route("category.add")}}">Thêm Thể Loại </a>
+<a href="{{route("book.list")}}">Về trang chủ </a>
 <table class="table table-striped">
     <thead>
     <tr>

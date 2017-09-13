@@ -10,6 +10,7 @@
 <h1>Danh Sách Sản Phẩm</h1>
 <a href="{{route("book.add")}}">Thêm sách</a>
 <a href="{{route("category.list")}}">Danh sách loại sách</a>
+<a href="{{route("author.list")}}">Danh sách tác giả</a>
 <table class="table table-striped">
     <thead>
     <tr>
