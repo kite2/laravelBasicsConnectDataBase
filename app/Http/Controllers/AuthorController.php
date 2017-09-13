@@ -53,7 +53,7 @@ class AuthorController extends Controller
         $author = Author::with('books')->find($id);
         $count = $author->books()->count();
         if ($count >0 ){
-            Session::flash('thongbao', 'Không Xóa Được Do ');
+            Session::flash('thongbao', 'Không Xóa Được Do Tác Giả Đã Có Sách');
             return redirect(route("author.list"));
         }
         else{
